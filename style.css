@@ -5,7 +5,7 @@
     margin: 0px;  
 }
 body{
-    background-color: #f2b8727c;
+    background-color: #282832;
 }
 img{
     width: 100%;
@@ -14,29 +14,33 @@ img{
 
 header{
     text-align: center;
-    background-color: #f2b872c4;
+    background-color: #a92727;
     padding: 1em;
-    box-shadow: 0px 50px 100px rgba(0, 0, 0, 0.26);
+    box-shadow: 0px 50px 90px rgba(0, 0, 0, 0.356);
 }
 header > h1, p{
     margin-bottom: 0.5em;
-    color: #40311E;
+    color: white;
 }
 header > p{
+    color: white;
     text-align: right;
 }
 h1{
     font-size: 2.5em;
 }
 h2{
-    color: #40311E;
+    color: #282832;
     padding-bottom: 1em;
     padding-top: 0.8em;
+}
+p{
+    color: black;
 }
 main{
     max-width: 600px;
     margin: auto;
-    background-color: white;
+    background-color: #e1ebeb;
     padding-top: 2em;
     padding: 2em;
     box-shadow: 0px 25px 100px rgba(0, 0, 0, 0.411);
@@ -45,16 +49,34 @@ main{
     
 }
 #volt{
-    background-color: white;
+    background-color: #e1ebeb;
     text-decoration: none;
     color: #735736;
     padding: 1em;
-    border-top-right-radius: 2em;
-    margin-top: 3em;
+    padding-right: 2.03em;
+    display: inline-flex;
 }
 
-#volt:hover{
-    border-radius: 0.2em;
+#sair{
+    background-color: #e1ebeb;
+    text-decoration: none;
+    color: #735736;
+    padding: 1em;
+    padding-right: 3.1em;
+    display: inline-flex;
+    border-top-right-radius: 2em;
+}
+#prox{
+    background-color: #e1ebeb;
+    text-decoration: none;
+    color: #735736;
+    padding: 1em;
+    border-bottom-right-radius: 2em;
+    display: inline-flex;
+}
+
+#boton > a:hover{
+    border-radius: 0.8em;
     transition-duration: 2s;;
 
 }
@@ -99,11 +121,12 @@ main{
 }
 #l0 > article > div > a{
     width: 50px;
+    border-radius: 1em;
 }
 .aulas{
     text-decoration: none;
-    color: black;
-    background-color: #D9A25F;
+    color: white;
+    background-color: #6f7a7a;
     padding: 1em;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.397);
     display: block;
@@ -112,7 +135,7 @@ main{
 a:hover{
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.678);
     border-radius: 1em;
-    transition-duration: 1s;
+    transition-duration: 0.5s;
 }
 a:not(:hover){
     box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.678);
@@ -120,8 +143,12 @@ a:not(:hover){
     transition-duration: 1s;
 }
 footer{
-    background-color: white;
-    margin-top: 1.03em;
+    background-color: #a92727;
+    color: white;
+    margin-top: 0.3em;
     padding: 0.4em;
     text-align: center;
+}
+footer > p{
+    color: white;
 }

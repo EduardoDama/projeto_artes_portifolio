@@ -17,3 +17,7 @@ var imagens = document.querySelectorAll('.minhaImagem');
   function fecharPopup() {
     document.getElementById("meuPopup").style.display = "none";
   }
+
+function tamanhoimgaem(){
+
+}

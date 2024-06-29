@@ -18,6 +18,3 @@ var imagens = document.querySelectorAll('.minhaImagem');
     document.getElementById("meuPopup").style.display = "none";
   }
 
-function tamanhoimgaem(){
-
-}

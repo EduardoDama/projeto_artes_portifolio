@@ -25,15 +25,17 @@ header > h1, p{
 header > p{
     color: white;
     text-align: right;
+    margin-top: 0.5em;
 }
 h1{
     font-size: 2.5em;
 }
 h2{
     color: #282832;
-    padding-bottom: 1em;
+
     padding-top: 0.8em;
     font-size: 2em;
+
 }
 h3{
     margin-top: 0.9em;
@@ -43,6 +45,7 @@ h3{
 p{
     color: black;
     text-align: justify;
+    margin-top: 1.5em;
 }
 main{
     max-width: 800px;
@@ -121,6 +124,10 @@ article{
 section > p > strong{
     color: #555d5d;
 }
+strong{
+    color: #ff0000;
+    font-size: 1.1em;
+}
 section > p{
     margin-top: 1em;
 }
@@ -166,4 +173,5 @@ footer{
 footer > p{
     color: white;
     text-align: center;
+    margin-top: 0.5em;
 }

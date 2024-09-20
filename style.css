@@ -131,19 +131,28 @@ strong{
 section > p{
     margin-top: 1em;
 }
-#l0{
+.bim{
     display: absolute;
     margin-left: -1em;
 }
-#l0 > article{
+.bim > article{
     display: inline-block;
     margin-left: 2.5em;
     width: 50px;
     margin-top: 1em;
 }
-#l0 > article > div > a{
+.bim > article > div > a{
     width: 50px;
     border-radius: 1em;
+}
+.bimes{
+    background-color: #6f7a7a87;
+    margin-right: 22em;
+    margin-top: 2em;
+    padding: 1em;
+    font-size: 1.5em;
+    border-radius: 1em;
+    color: 282832;
 }
 .aulas{
     text-decoration: none;

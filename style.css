@@ -80,7 +80,7 @@ main{
     background-color: #e1ebeb;
     text-decoration: none;
     color: #735736;
-    padding: 1em;
+    padding: 0.99em;
     border-bottom-right-radius: 2em;
     display: inline-flex;
 }
@@ -145,14 +145,19 @@ section > p{
     width: 50px;
     border-radius: 1em;
 }
-.bimes{
+.bim > div:first-child{
     background-color: #6f7a7a87;
-    margin-right: 22em;
-    margin-top: 2em;
-    padding: 1em;
-    font-size: 1.5em;
+    max-width: 20em;
+    padding: 0em;
+    margin-top: 3em;
     border-radius: 1em;
     color: 282832;
+    
+}
+.bim > div:first-child > h2{
+    padding-left: 0.5em;
+    padding-bottom: 0.7em;
+    font-size: 1.7em;
 }
 .aulas{
     text-decoration: none;

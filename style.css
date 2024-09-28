@@ -178,6 +178,23 @@ a:not(:hover){
     border-radius: 0em;
     transition-duration: 1s;
 }
+.container {
+    display: flex;
+    justify-content: space-between; /* Espaço entre as seções */
+    gap: 40px; /* Adiciona um espaço entre as seções */
+}
+
+.cordel {
+    width: 48%; /* Cada seção ocupa 48% da largura da página */
+    background-color: #a9272726;
+    padding: 20px;
+    font-size: 1.2em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.artigoCordel p {
+    margin: 0 0 15px; /* Espaçamento entre os parágrafos */
+}
 footer{
     background-color: #a92727;
     color: white;

@@ -195,6 +195,53 @@ a:not(:hover){
 .artigoCordel p {
     margin: 0 0 15px; /* Espaçamento entre os parágrafos */
 }
+
+
+/* Centralizando e estilizando o container dos botões */
+#boton {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    bottom: 20px;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    border-radius: 100%;
+    padding: 0px;
+}
+
+/* Estilos gerais para os botões */
+#boton a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    background-color: #a92727;
+    color: white;
+    text-decoration: none;
+    border-radius: 100%;
+    padding: 30px;
+    font-size: 24px;
+    transition: background-color 0.3s;
+}
+
+/* Efeito hover nos botões */
+#boton a:hover {
+    background-color: #610000;
+}
+
+/* Especificando os ícones */
+#sair i {
+    content: '\f52b'; /* ícone de saída */
+}
+
+#volt i {
+    content: '\f104'; /* ícone de seta para a esquerda */
+}
+
+#prox i {
+    content: '\f105'; /* ícone de seta para a direita */
+}
 footer{
     background-color: #a92727;
     color: white;

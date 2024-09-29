@@ -189,7 +189,9 @@ a:not(:hover){
     background-color: #a9272726;
     padding: 20px;
     font-size: 1.2em;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.225);
+    border-radius: 1em;
+    margin-top: 1.2em;
 }
 
 .artigoCordel p {

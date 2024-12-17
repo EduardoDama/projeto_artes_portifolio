@@ -124,10 +124,26 @@ article{
 
 }
 section > p > strong{
-    color: #555d5d;
+    color: rgb(193, 90, 1);
+}
+h4{
+    font-size: 1.3em;
+}
+#subtopico{
+    margin-left: 2em;
+    max-width: 700px;
+    margin-top: 1.5em;
+    margin-bottom: 2em;
+}
+#subtopico > p > strong{
+    color: rgb(193, 90, 1);
 }
 strong{
     color: #ff0000;
+    font-size: 1.1em;
+}
+b{
+    color: #a41919;
     font-size: 1.1em;
 }
 section > p{
